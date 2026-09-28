@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #333;
+ }
+header {
+    background-color: #8b3a62;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd1e3;
+}
+
+/* About Section */
+.about-section {
+    position: relative;
+    text-align: center;
+}
+
+.about-section img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about-section h1 {
+    color: #8b3a62;
+    margin: 25px;
+}
+
+/* Products Banner */
+.products-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.products-banner img {
+    width: 80%;
+    max-width: 700px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.products-banner h2 {
+    color: #8b3a62;
+}
+
+.product-button {
+    display: inline-block;
+    background-color: #8b3a62;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-button:hover {
+    background-color: #602640;
+}
+
+/* Footer */
+footer {
+    background-color: #8b3a62;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Products Page */
+.products-page {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+.products-page h1 {
+   grid-column: 1 / 4;
+    color: purple;
+}
+
+.product-box 
+{
+    border: 2px solid purple;
+    padding: 15px;
+    background-color: lavenderblush;
+    border-radius: 10px;
+    
+}
+
+.product-box img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-box h2 {
+    color: purple;
+    font-size: 20px;
+}
+
+.product-box p {
+    font-size: 14px;
+}
+
+/* Contacttt Page */
+.contact-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-section h1 {
+    color: #8b3a62;
+}
+
+.contact-box {
+    background-color: #f7c6d9;
+    padding: 25px;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+.social-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.social-section h2 
+{
+    color: #8b3a62;
+}
+
+.social-section a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #8b3a62;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+ }
